@@ -30,7 +30,7 @@ try_files $uri $uri/ /index.html;
 
 # and run below commads 
 
-sudo nginx -t
+sudo apt install nginx -y
 
 sudo systemctl restart nginx
 
